@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Generated local artifacts
+Technical-Assessment-01/streamlit_app.png
+*.zip
+
+# Streamlit secrets
+.streamlit/secrets.toml

@@ -1,0 +1,4 @@
+algorithm,accuracy,precision,recall,f1_score
+Logistic Regression,1.0000,1.0000,1.0000,1.0000
+Decision Tree,1.0000,1.0000,1.0000,1.0000
+Random Forest,1.0000,1.0000,1.0000,1.0000

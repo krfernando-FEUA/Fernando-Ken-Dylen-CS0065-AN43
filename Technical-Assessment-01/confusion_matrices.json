@@ -1,0 +1,38 @@
+{
+  "label_order": [
+    "Not At Risk",
+    "At Risk"
+  ],
+  "matrices": {
+    "Logistic Regression": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "Decision Tree": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "Random Forest": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ]
+  }
+}
