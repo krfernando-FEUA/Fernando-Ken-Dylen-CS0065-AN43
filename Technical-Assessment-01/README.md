@@ -18,7 +18,7 @@ This repository contains the required output for Asynchronous Activity 1. The pr
 4. Open the Scorer nodes to review the evaluation results.
 
 ## Author
-Ken Dylen Fernando
+Ken Dylen R. Fernando
 
 ## Course and Section
-CS0065 - AN43
+BSCSSE - AN33
