@@ -1,0 +1,61 @@
+item_id,item_name,stock_level,daily_usage,lead_time_days,urgency,item_budget_php,unit_cost_php,safety_days
+INV-001,UGREEN Nexode 240W USB-C Cable with Digital Display 1M,0,2.0,7,5,3000.0,250,7
+INV-002,UGREEN Nexode 240W USB-C Cable with Digital Display 2M,2,3.0,14,4,0.0,280,7
+INV-003,UGREEN 100W Nexode Retractable USB C to USB C Cable,30,2.0,10,3,4800.0,240,5
+INV-004,UGREEN USB A to USB C Nylon Braided Cable 18W,14,2.0,7,4,1200.0,120,3
+INV-005,UGREEN Micro USB to USB 2.0 Nylon Braided Charger Cable,0,0.0,7,5,1200.0,120,7
+INV-006,UGREEN MFi USB-C to Lightning Charging Cable,49,3.0,30,3,0.0,120,3
+INV-007,UGREEN 240W USB C to USB C Cable PD Fast Charging,6,0.5,2,1,47.5,95,5
+INV-008,UGREEN 240W USB C to USB C 3.2 Gen2 Cable Fast Charging 10Gbps,23,2.0,7,3,1750.0,35,10
+INV-009,UGREEN 100W USB C to USB C Cable PD Fast Charging,36,2.0,2,3,367.5,35,10
+INV-010,UGREEN CAT 8 Braided Ethernet Cable,7,0.5,5,2,247.5,45,7
+INV-011,UGREEN USB to USB C Adapter 10Gbps,2,0.25,2,5,2814.0,28,3
+INV-012,UGREEN USB C to USB Adapter 10Gbps,4,0.25,21,3,250.0,25,7
+INV-013,UGREEN USB C Ethernet Adapter 2.5G,0,1.5,14,3,640.0,32,7
+INV-014,UGREEN 40Gbps M.2 NVMe SSD Enclosure,1,0.25,7,5,700.0,140,3
+INV-015,UGREEN 10Gbps M.2 NVMe Enclosure Adapter,12,1.5,2,4,2200.0,22,3
+INV-016,UGREEN 10Gbps USB C Hub with 100W PD Port,7,2.0,30,3,180.0,18,5
+INV-017,UGREEN USB C Hub 4 Ports,120,4.0,10,5,4500.0,45,10
+INV-018,UGREEN USB 3.0 Hub,1,2.0,2,3,3000.0,30,5
+INV-019,UGREEN Revodok 105 5 in 1 USB C Hub,12,5.0,2,4,600.0,20,3
+INV-020,UGREEN Revodok 106 6 in 1 USB C Hub,18,4.0,2,2,99.0,18,7
+INV-021,UGREEN Revodok 1061 6 in 1 USB C Hub,28,0.5,45,2,100.0,20,10
+INV-022,UGREEN Revodok 1071 7 in 1 USB C Hub,3,0.25,2,3,800.0,40,7
+INV-023,UGREEN Revodok Pro 109 9 in 1 USB C Hub,104,2.0,45,4,1350.0,45,7
+INV-024,UGREEN Revodok Pro 207 7 in 1 USB C Docking Station,6,3.0,14,4,762.5,25,7
+INV-025,UGREEN Revodok Pro 209 9-in-1 DisplayLink Docking Station,66,4.0,45,5,3750.0,75,10
+INV-026,UGREEN Revodok Pro 210 10 in 1 USB C Docking Station,54,5.0,5,1,307.5,15,7
+INV-027,UGREEN Revodok Pro 2102 10 in 1 USB C Docking Station,0,0.25,21,5,2000.0,40,5
+INV-028,UGREEN Revodok Pro 2111 11 in 1 USB C Docking Station,1,1.0,10,2,550.0,220,7
+INV-029,UGREEN Revodok Pro 312 12 in 1 USB C Docking Station,11,1.0,3,3,6150.0,300,10
+INV-030,UGREEN Uno 6-in-1 USB C Hub,43,4.0,7,4,6500.0,65,5
+INV-031,"UGREEN Nexode Pro 45W USB-C Charger with Smart Display, GaN Fast Charger",31,1.5,7,4,1127.5,55,7
+INV-032,UGREEN Nexode Pro 300W 5-Port GaN Desktop Charger,70,2.0,30,2,850.0,85,5
+INV-033,UGREEN Nexode Pro 160W Charger with Retractable USB-C Cable,5,0.5,5,4,0.0,75,10
+INV-034,UGREEN Nexode Pro 100W 4-Port GaN Charger with Smart Display,165,3.0,45,1,475.0,95,10
+INV-035,"UGREEN Nexode Air Slim Charger (65W, 3-Port, Foldable Plug)",45,3.0,7,1,6500.0,130,3
+INV-036,UGREEN Nexode Air 100W Charger,63,1.5,21,5,220.0,110,7
+INV-037,UGREEN Nexode Air 65W Charger Space Gray,0,1.0,21,3,0.0,80,10
+INV-038,UGREEN Nexode Air 65W Charger Lunar White,0,1.5,21,4,2000.0,40,10
+INV-039,UGREEN Nexode Air 45W Charger Space Gray,0,5.0,10,2,0.0,30,3
+INV-040,UGREEN Nexode 300W 5-Port Desktop Charger,10,5.0,14,3,900.0,45,7
+INV-041,UGREEN Nexode 200W 6-Port Desktop Charger,46,3.0,21,1,17675.0,350,10
+INV-042,UGREEN Nexode 100W 4-Port Charger,5,1.5,2,2,35000.0,350,10
+INV-043,UGREEN Nexode 65W 3-Port Charger,10,4.0,2,2,3500.0,350,7
+INV-044,UGREEN Nexode 30W USB C Charger,5,3.0,10,3,175.0,350,7
+INV-045,UGREEN Uno 65W 3-Port Charger,18,1.0,7,2,8000.0,1600,5
+INV-046,UGREEN Nexode Power Bank 25000mAh 200W with Retractable USB-C Cable,70,5.0,7,3,12500.0,250,7
+INV-047,UGREEN Nexode Power Bank 20000mAh 45W with Built-in USB-C Cable Smart Display,3,1.0,3,4,75.0,30,10
+INV-048,UGREEN MagFlow Pro Magnetic Power Bank 10000mAh 25W,5,1.5,2,5,180.0,18,10
+INV-049,"UGREEN QI2 15W Magsafe Power Bank, Ultra-Slim Portable Charger 5000mAh",222,4.0,30,2,410.0,20,7
+INV-050,UGREEN Nexode Power Bank 10000mAh 45W with Built-in USB-C Cable Smart Display,6,0.5,14,5,11000.0,220,3
+INV-051,UGREEN Nexode Power Bank 10000mAh 30W with Built-in USB-C Cable,7,1.5,2,3,4545.0,90,3
+INV-052,UGREEN Nexode Power Bank 145W 25000mAh,6,1.5,3,1,2200.0,110,3
+INV-053,UGREEN Nexode Power Bank 100W 20000mAh,11,0.25,30,3,2750.0,55,3
+INV-054,UGREEN Silent Mice Cordless Slim USB 2.4G,412,5.0,45,2,840.0,80,10
+INV-055,UGREEN Ergonomic Vertical Mouse Bluetooth & 2.4G,36,4.0,2,4,650.0,130,7
+INV-056,UGREEN Wireless Ergonomic Mouse 4000 DPI 6 Buttons,13,0.5,7,1,750.0,25,10
+INV-057,UGREEN 4K Webcam for PC Ultra HD 1080P 60FPS Web Camera,0,5.0,21,3,25000.0,250,7
+INV-058,UGREEN HiTune Max5c Hybrid Active Noise-Cancelling Headphones,2,0.25,3,4,0.0,150,10
+INV-059,UGREEN HiTune S3 True Wireless Earbuds,0,0.25,14,2,3282.5,65,5
+INV-060,UGREEN ClipBuds Open-Ear Wireless Headphones,0,0.5,2,4,1332.5,65,10
