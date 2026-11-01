@@ -1,0 +1,15 @@
+INPUT: {'temperature': 32, 'humidity': 85, 'is_raining': True, 'is_outdoors': True, 'is_occupied': True}
+
+RBR: Check all three rules
+- Turn on a fan or air conditioner.
+- Bring an umbrella or raincoat.
+- Use a dehumidifier.
+
+CBR: Compare the current facts with each past case
+C001 similarity=0.986
+C003 similarity=0.754
+C002 similarity=0.722
+Retrieve: C001
+Reuse: Cool the room, reduce humidity, and bring a raincoat.
+Revise (Enter to keep): Final solution: Cool the room, reduce humidity, and bring a raincoat.
+Retained: C004 | Case count: 4
