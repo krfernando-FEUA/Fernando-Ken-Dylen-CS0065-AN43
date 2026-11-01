@@ -1,0 +1,178 @@
+[
+  {
+    "id": "C01",
+    "problem": {
+      "topic": "Fractions",
+      "error": "Unlike denominators",
+      "mastery": 35,
+      "format": "Visual",
+      "minutes": 20
+    },
+    "solution": {
+      "feedback": "Draw fraction bars, find a common denominator, rename each fraction, then add the numerators.",
+      "format": "Visual",
+      "exercises": 4,
+      "minutes": 20,
+      "support": "Guided practice"
+    },
+    "outcome": {
+      "notes": "Fictional seed: learner improved after this intervention.",
+      "post_mastery": 55
+    },
+    "source_case_id": null
+  },
+  {
+    "id": "C02",
+    "problem": {
+      "topic": "Fractions",
+      "error": "Unlike denominators",
+      "mastery": 60,
+      "format": "Worked example",
+      "minutes": 20
+    },
+    "solution": {
+      "feedback": "Work through 1/2 + 1/3 = 3/6 + 2/6 = 5/6; explain why the denominator stays 6.",
+      "format": "Worked example",
+      "exercises": 5,
+      "minutes": 20,
+      "support": "Guided practice"
+    },
+    "outcome": {
+      "notes": "Fictional seed: learner improved after this intervention.",
+      "post_mastery": 80
+    },
+    "source_case_id": null
+  },
+  {
+    "id": "C03",
+    "problem": {
+      "topic": "Fractions",
+      "error": "Numerator and denominator confusion",
+      "mastery": 30,
+      "format": "Visual",
+      "minutes": 15
+    },
+    "solution": {
+      "feedback": "Label the number of selected parts as the numerator and the equal total parts as the denominator.",
+      "format": "Visual",
+      "exercises": 4,
+      "minutes": 15,
+      "support": "Guided practice"
+    },
+    "outcome": {
+      "notes": "Fictional seed: learner improved after this intervention.",
+      "post_mastery": 50
+    },
+    "source_case_id": null
+  },
+  {
+    "id": "C04",
+    "problem": {
+      "topic": "Linear equations",
+      "error": "Sign error",
+      "mastery": 45,
+      "format": "Worked example",
+      "minutes": 20
+    },
+    "solution": {
+      "feedback": "Track the sign on every term. Solve x - 3 = 5 by adding 3 to both sides and checking x = 8.",
+      "format": "Worked example",
+      "exercises": 5,
+      "minutes": 20,
+      "support": "Guided practice"
+    },
+    "outcome": {
+      "notes": "Fictional seed: learner improved after this intervention.",
+      "post_mastery": 65
+    },
+    "source_case_id": null
+  },
+  {
+    "id": "C05",
+    "problem": {
+      "topic": "Linear equations",
+      "error": "Unbalanced operations",
+      "mastery": 55,
+      "format": "Practice",
+      "minutes": 20
+    },
+    "solution": {
+      "feedback": "Apply the same operation to both sides. Solve 2x = 10 by dividing both sides by 2.",
+      "format": "Practice",
+      "exercises": 5,
+      "minutes": 20,
+      "support": "Guided practice"
+    },
+    "outcome": {
+      "notes": "Fictional seed: learner improved after this intervention.",
+      "post_mastery": 75
+    },
+    "source_case_id": null
+  },
+  {
+    "id": "C06",
+    "problem": {
+      "topic": "Geometry",
+      "error": "Wrong formula",
+      "mastery": 40,
+      "format": "Worked example",
+      "minutes": 15
+    },
+    "solution": {
+      "feedback": "Identify the shape and required measure. Rectangle area is length times width; perimeter is twice their sum.",
+      "format": "Worked example",
+      "exercises": 4,
+      "minutes": 15,
+      "support": "Guided practice"
+    },
+    "outcome": {
+      "notes": "Fictional seed: learner improved after this intervention.",
+      "post_mastery": 60
+    },
+    "source_case_id": null
+  },
+  {
+    "id": "C07",
+    "problem": {
+      "topic": "Geometry",
+      "error": "Unit confusion",
+      "mastery": 65,
+      "format": "Practice",
+      "minutes": 20
+    },
+    "solution": {
+      "feedback": "Label lengths in cm, areas in square cm, and volumes in cubic cm before calculating.",
+      "format": "Practice",
+      "exercises": 6,
+      "minutes": 20,
+      "support": "Guided practice"
+    },
+    "outcome": {
+      "notes": "Fictional seed: learner improved after this intervention.",
+      "post_mastery": 85
+    },
+    "source_case_id": null
+  },
+  {
+    "id": "C08",
+    "problem": {
+      "topic": "Fractions",
+      "error": "Unlike denominators",
+      "mastery": 80,
+      "format": "Practice",
+      "minutes": 25
+    },
+    "solution": {
+      "feedback": "Find the least common denominator and check the result with an estimate before simplifying.",
+      "format": "Practice",
+      "exercises": 6,
+      "minutes": 25,
+      "support": "Guided practice"
+    },
+    "outcome": {
+      "notes": "Fictional seed: learner improved after this intervention.",
+      "post_mastery": 100
+    },
+    "source_case_id": null
+  }
+]

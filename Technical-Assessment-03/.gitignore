@@ -1,0 +1,6 @@
+# Local case base created by the retention demo
+python/cases.json
+python/cases.tmp
+
+# Word temporary lock files
+~$*
