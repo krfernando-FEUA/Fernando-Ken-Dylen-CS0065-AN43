@@ -15,14 +15,15 @@ Presenters: Ken, Maersk, Rey, Alvin, and Nads.
 | --- | --- |
 | [docs](docs) | Project design, demonstration guide, verification record, asset credits, speaking script, and PowerPoint |
 | [knime](knime) | Importable workflow, unpacked node settings, baseline data, helper scripts, and execution evidence |
-| [video](video) | Final 1920 × 1080 subtitled video and separate English subtitles |
+| [video](video) | Google Drive video access and separate English subtitles |
 | [python](python) | Complete Python source ZIP and setup instructions |
 
+- [Clickable submission links PDF](docs/LoopGuard-Submission-Links.pdf)
 - [PowerPoint presentation](docs/LoopGuard-Friendship-Fair.pptx)
 - [English speaking script](docs/LoopGuard-English-Script.md)
 - [KNIME workflow](knime/LoopGuard_Friendship_Fair.knwf)
 - [Python source ZIP](python/LoopGuard-Python-Source.zip)
-- [Final subtitled video](https://media.githubusercontent.com/media/krfernando-FEUA/Fernando-Ken-Dylen-CS0065-AN43/main/Final-Project/video/LoopGuard-OneCut-1080p-Subtitled.mp4)
+- [Final subtitled video on Google Drive](https://drive.google.com/file/d/1zEmYd1PuvO1LNrpOLnctMr_29NAr49nx/view)
 - [English subtitles](video/LoopGuard-Subtitles-English.srt)
 
 ## Run the system
@@ -41,9 +42,8 @@ English subtitles included in the picture. The `.srt` is supplied separately for
 reuse. The PowerPoint and Markdown script retain the full presentation and
 optional appendix. The PDF script is excluded from this submission.
 
-The MP4 is stored with Git LFS. GitHub's **Download raw file** action or the video
-link above retrieves it. When cloning, install Git LFS and run `git lfs pull` to
-download the video content.
+The MP4 is shared through Google Drive. See the [video access page](video/README.md)
+for its sharing link and presentation details.
 
 ## Verification
 

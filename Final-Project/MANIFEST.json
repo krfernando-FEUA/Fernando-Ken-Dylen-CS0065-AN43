@@ -3,13 +3,13 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 58,
-      "sha256": "453b451b0c22d9b68c6a72f85b5aafe83b9114e93b8b7448894941591dcb8bbc"
+      "bytes": 28,
+      "sha256": "f6dc63cd82e8726ababd0a383dba030a4d445bf9857d4487f1f0a51ef5379a89"
     },
     {
       "path": ".gitignore",
-      "bytes": 37,
-      "sha256": "9d30e53883d77f83e58aa5796d7e72a032488020c2dcb9e2b2643a7d9f13be37"
+      "bytes": 51,
+      "sha256": "a1c776d64e4b9553f98243f5e6f9115e1a2f13a5af3fab35f42cc0d4979edddf"
     },
     {
       "path": "docs/ASSETS-ORIGINAL.md",
@@ -35,6 +35,11 @@
       "path": "docs/LoopGuard-Friendship-Fair.pptx",
       "bytes": 19723595,
       "sha256": "9abbe72d206280a755d9973958abbb22408b055dacc6a9709b7f3fc651dae3a5"
+    },
+    {
+      "path": "docs/LoopGuard-Submission-Links.pdf",
+      "bytes": 153467,
+      "sha256": "66d3ef74b81aad411cbf0b9bfa0e4d79f15ecd21a7fcd3765aefb5ef9cb195b8"
     },
     {
       "path": "docs/PROJECT.md",
@@ -208,18 +213,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 3055,
-      "sha256": "a0d31638f2c847f620cf9a3a8712b0633aece98df34e85d0ea0189d78d7ad44b"
-    },
-    {
-      "path": "video/LoopGuard-OneCut-1080p-Subtitled.mp4",
-      "bytes": 418433210,
-      "sha256": "64909ef1ea6dc0903fcb2e82a320ef8d5c64d36b6ca71f004cbde60d1a61b48d"
+      "bytes": 2994,
+      "sha256": "de0a0d49b6d8a5ddffdf49d661a2738d5562bcfc80d0400a2027d9d0077480a0"
     },
     {
       "path": "video/LoopGuard-Subtitles-English.srt",
       "bytes": 12108,
       "sha256": "8ba4b011e71de58071f19d0c043e400a687dc034cf2c80a4930b2d527bde7573"
+    },
+    {
+      "path": "video/README.md",
+      "bytes": 559,
+      "sha256": "ffec8edd42f6e11f01a95ffd9cddf8b72d4180f4fae6d90d00baea2eeba2d045"
     }
   ]
 }
