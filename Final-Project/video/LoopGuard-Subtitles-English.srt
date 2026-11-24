@@ -1,0 +1,559 @@
+1
+00:00:00,200 --> 00:00:04,233
+Good day. Imagine spending 20 coins
+to make a gift, then selling it for 24.
+
+2
+00:00:04,300 --> 00:00:05,500
+You gain 4 coins.
+
+3
+00:00:05,500 --> 00:00:08,400
+If you keep repeating this, was that reward planned?
+
+4
+00:00:08,700 --> 00:00:12,900
+LoopGuard helps game designers answer that
+question before changing their prices or rewards.
+
+5
+00:00:13,533 --> 00:00:15,100
+Here is how that example works.
+
+6
+00:00:15,300 --> 00:00:17,233
+20 coins buys 2 ribbons.
+
+7
+00:00:17,300 --> 00:00:21,467
+The player turns both ribbons into
+one gift and sells it for 24 coins.
+
+8
+00:00:21,567 --> 00:00:25,867
+We call that a complete sequence and a route
+because it starts and ends with coins.
+
+9
+00:00:26,100 --> 00:00:31,933
+The problem is whether its 4 coin gain can
+repeat in a way that designer never intended.
+
+10
+00:00:32,800 --> 00:00:35,267
+LoopGuard gives the designer 3 kinds of advice.
+
+11
+00:00:35,600 --> 00:00:38,833
+Correct means adjust a problematic price or reward.
+
+12
+00:00:38,833 --> 00:00:41,400
+Preserve means keep a planned reward with known limits.
+
+13
+00:00:41,633 --> 00:00:45,000
+Investigate means check missing
+information or a possible weakness.
+
+14
+00:00:45,333 --> 00:00:49,400
+Each recommendation includes a reason
+and the designer still decides what to change.
+
+15
+00:00:50,300 --> 00:00:52,533
+Our setting is an invented Sanrio fair.
+
+16
+00:00:52,700 --> 00:00:57,600
+My Melody Shop makes the gift, Kuromi and
+Keroppi handle a separate charm exchange.
+
+17
+00:00:57,867 --> 00:01:00,200
+Cinnamoroll and Pompompurin represent a café.
+
+18
+00:01:00,433 --> 00:01:04,000
+These characters help us remember the shops we invented,
+
+19
+00:01:04,333 --> 00:01:06,700
+their prices and rules for this classroom project.
+
+20
+00:01:07,000 --> 00:01:10,133
+That designer uses Streamlit,
+our Python application's interface,
+
+21
+00:01:10,133 --> 00:01:12,267
+to enter prices and read recommendations.
+
+22
+00:01:12,600 --> 00:01:16,400
+Python calculates the exchanges and checks 35 written rules.
+
+23
+00:01:16,633 --> 00:01:21,200
+KNIME is a visual workflow tool that makes
+separate decisions from Python's calculated facts.
+
+24
+00:01:21,633 --> 00:01:24,600
+Maersk will now explain how those facts become advice.
+
+25
+00:01:24,833 --> 00:01:25,867
+Start with the gift.
+
+26
+00:01:25,967 --> 00:01:28,367
+What does it cost and what does it return?
+
+27
+00:01:28,733 --> 00:01:31,867
+The designer also enters whether the reward is planned,
+
+28
+00:01:32,200 --> 00:01:35,567
+how often a trade is allowed, and how long players must wait.
+
+29
+00:01:35,967 --> 00:01:38,467
+A blank limit means we do not know.
+
+30
+00:01:38,833 --> 00:01:42,300
+Entering zero explicitly means that there is no limit.
+
+31
+00:01:44,400 --> 00:01:46,533
+Python checks these entries,
+
+32
+00:01:46,667 --> 00:01:51,000
+then connects the trades to find
+routes like our ribbon-to-gift example.
+
+33
+00:01:51,533 --> 00:01:54,900
+It calculates what each complete route costs and returns.
+
+34
+00:01:55,533 --> 00:02:00,833
+Next, the rules ask whether the gain is
+intended and what restricts repetition.
+
+35
+00:02:01,533 --> 00:02:03,233
+That separates two questions.
+
+36
+00:02:03,567 --> 00:02:05,100
+Can the player earn coins?
+
+37
+00:02:05,333 --> 00:02:07,533
+And should the designer allow that reward?
+
+38
+00:02:09,600 --> 00:02:11,633
+Python must respect complete trades.
+
+39
+00:02:11,800 --> 00:02:13,533
+If a gift requires two ribbons,
+
+40
+00:02:14,200 --> 00:02:16,733
+half a price cannot count as a finished gift.
+
+41
+00:02:17,133 --> 00:02:22,500
+The code finds the smallest combination of full
+trades that works and keeps fraction exact,
+
+42
+00:02:23,000 --> 00:02:25,267
+so rounding does not create a false profit.
+
+43
+00:02:26,933 --> 00:02:29,500
+The rules turn the result into advice.
+
+44
+00:02:29,633 --> 00:02:35,300
+If a profitable route is an unintended
+and has no limits, flag it for correction.
+
+45
+00:02:35,400 --> 00:02:38,033
+If it's planned and limited, preserve it.
+
+46
+00:02:38,400 --> 00:02:41,667
+If important facts are missing, ask for evidence.
+
+47
+00:02:42,133 --> 00:02:44,067
+This is our expert system.
+
+48
+00:02:44,167 --> 00:02:48,067
+Written decision rules apply the facts
+with the reasoning recorded.
+
+49
+00:02:50,033 --> 00:02:55,800
+Our decision code also distinguishes an unlimited
+planned reward from unlimited accidental one.
+
+50
+00:02:56,200 --> 00:03:00,833
+It rates the planned reward as high
+concern and accidental reward as a critical.
+
+51
+00:03:01,567 --> 00:03:04,167
+A planned limited reward can be preserved.
+
+52
+00:03:04,533 --> 00:03:06,967
+Missing information checks happen first,
+
+53
+00:03:07,333 --> 00:03:11,033
+so an unknown limit is never silently treated as unlimited.
+
+54
+00:03:11,700 --> 00:03:13,833
+Rey will now apply this to our example.
+
+55
+00:03:16,100 --> 00:03:21,067
+Our gift turns 20 coins into two
+ribbons, then one gift, then 24 coins.
+
+56
+00:03:21,333 --> 00:03:27,500
+The designer marks the four coin gain as unintended
+and confirms there are no limits or waiting times.
+
+57
+00:03:27,867 --> 00:03:30,100
+LoopGuard flags it as critical.
+
+58
+00:03:30,600 --> 00:03:35,333
+Both the extra coins and the unrestricted
+repetition explain why it needs correction.
+
+59
+00:03:35,667 --> 00:03:36,967
+Now consider charms.
+
+60
+00:03:37,400 --> 00:03:41,967
+Eight coins buy a stamp, which
+becomes a charm worth 12 coins.
+
+61
+00:03:42,200 --> 00:03:47,467
+Each account can buy only two stamps daily,
+but can pass items to other accounts.
+
+62
+00:03:47,467 --> 00:03:50,533
+Could several accounts combine purchases?
+
+63
+00:03:51,133 --> 00:03:54,400
+LoopGuard flags that concern for investigation.
+
+64
+00:03:54,633 --> 00:03:58,167
+It has not proven that players can bypass the limit.
+
+65
+00:03:59,367 --> 00:04:04,267
+The Café shows why profit alone is not a problem.
+
+66
+00:04:04,700 --> 00:04:09,367
+Ten coins buy two beans, which make a latte worth 14 coins.
+
+67
+00:04:09,767 --> 00:04:11,300
+This reward is planned.
+
+68
+00:04:11,567 --> 00:04:16,267
+The Café allows only three payouts daily across the whole fair.
+
+69
+00:04:16,567 --> 00:04:19,333
+Each player waits an hour between payouts.
+
+70
+00:04:19,533 --> 00:04:22,700
+LoopGuard recommends keeping this controlled reward.
+
+71
+00:04:23,100 --> 00:04:26,733
+Now suppose the designer leaves the gift's limits blank.
+
+72
+00:04:27,000 --> 00:04:32,600
+We still know it earns four coins, but
+we cannot tell how often it can repeat.
+
+73
+00:04:32,867 --> 00:04:35,500
+LoopGuard requests more information.
+
+74
+00:04:35,767 --> 00:04:38,833
+Its daily simulation says no estimate,
+
+75
+00:04:39,400 --> 00:04:43,133
+which means insufficient information, not zero earnings.
+
+76
+00:04:43,867 --> 00:04:47,200
+Alvin will show how a designer can use these decisions.
+
+77
+00:04:47,400 --> 00:04:48,600
+Thanks Rey.
+
+78
+00:04:48,633 --> 00:04:52,733
+In Streamlit, the designer enters or loads the shop prices,
+
+79
+00:04:53,100 --> 00:04:56,700
+runs a check, and reads why a route was flagged.
+
+80
+00:04:56,700 --> 00:05:00,933
+They can edit the prices, preview a fix, or undo a change.
+
+81
+00:05:01,133 --> 00:05:04,500
+They can also export the project to a file
+
+82
+00:05:04,500 --> 00:05:09,167
+so their entered prices and rules can be reopened later.
+
+83
+00:05:09,800 --> 00:05:14,400
+For the gift, we can preview reducing
+the selling price to 20 coins.
+
+84
+00:05:14,700 --> 00:05:18,200
+Spending 20, and receiving 20 removes the gain.
+
+85
+00:05:18,700 --> 00:05:22,233
+The preview checks a copy before applying changes.
+
+86
+00:05:22,533 --> 00:05:24,533
+A daily limit works differently.
+
+87
+00:05:25,033 --> 00:05:29,433
+The 4 coin gain remains, but it can happen fewer times.
+
+88
+00:05:29,567 --> 00:05:33,600
+We also estimate a day's earning before that correction.
+
+89
+00:05:33,933 --> 00:05:39,867
+Of 10 requested runs, gifts complete
+all 10, earning 40 extra coins.
+
+90
+00:05:40,033 --> 00:05:43,600
+Charms stop at 2 runs, earning 8.
+
+91
+00:05:43,600 --> 00:05:47,967
+The café stops at 3, earning 12.
+
+92
+00:05:47,967 --> 00:05:50,433
+We assume one account enough starting
+
+93
+00:05:50,433 --> 00:05:54,467
+money and supplies and initially unused shared limits.
+
+94
+00:05:54,633 --> 00:05:57,500
+Earning are not reused to fund more trades.
+
+95
+00:06:00,067 --> 00:06:05,367
+KNIME makes a separate decision
+from the same calculated facts.
+
+96
+00:06:05,800 --> 00:06:09,467
+Python exports facts such as profits and limits.
+
+97
+00:06:09,600 --> 00:06:14,733
+KNIME reads them, applies rules
+to choose a category and urgency,
+
+98
+00:06:15,000 --> 00:06:16,533
+then saves its decisions.
+
+99
+00:06:16,533 --> 00:06:20,767
+Streamlit checks that both sets of results
+
+100
+00:06:20,767 --> 00:06:25,600
+cover the same routes and current
+prices and rules before comparing them.
+
+101
+00:06:26,700 --> 00:06:28,333
+We ran KNIME manually.
+
+102
+00:06:28,500 --> 00:06:32,567
+All four workflows, steps executed, and its six decisions
+
+103
+00:06:32,567 --> 00:06:37,333
+match the expected results for our
+starting Friendship Fair example.
+
+104
+00:06:37,700 --> 00:06:40,133
+That verifies this particular run.
+
+105
+00:06:40,667 --> 00:06:45,967
+Python still handles finding routes, calculating
+trades, preview fixes, and simulation.
+
+106
+00:06:45,967 --> 00:06:48,900
+Nads will explain our wider checks.
+
+107
+00:06:49,167 --> 00:06:50,100
+Thanks, Alvin.
+
+108
+00:06:50,100 --> 00:06:52,433
+In here, we prepared four versions of the fair.
+
+109
+00:06:52,800 --> 00:06:55,067
+First, Friendship Fair is the starting example.
+
+110
+00:06:55,367 --> 00:06:58,267
+The Balanced Market corrects the unintended gains.
+
+111
+00:06:58,567 --> 00:07:03,333
+Missing Telemetry deliberately removes information
+so that the system should ask questions.
+
+112
+00:07:03,667 --> 00:07:07,200
+Festival Rush raises the gift payout and removes café limits.
+
+113
+00:07:07,500 --> 00:07:10,067
+Changing the facts lets us check
+
+114
+00:07:10,067 --> 00:07:13,833
+whether the same rules produce
+the appropriate different advice.
+
+115
+00:07:13,967 --> 00:07:18,433
+October 25th record reports 116 passing tests.
+
+116
+00:07:18,600 --> 00:07:23,200
+These are calculations, decisions, data
+exchange, and Streamlit interactions.
+
+117
+00:07:23,700 --> 00:07:26,533
+These functions behave as expected on those tests.
+
+118
+00:07:26,900 --> 00:07:29,867
+To learn whether game designers
+actually find the system useful,
+
+119
+00:07:29,967 --> 00:07:33,133
+we still need trials with people and realistic game data.
+
+120
+00:07:36,500 --> 00:07:41,867
+This prototype checks the routes of up
+to six trades within fixed search limits.
+
+121
+00:07:42,233 --> 00:07:45,667
+Each trade converts one-of-a-kind item into one other kind.
+
+122
+00:07:45,967 --> 00:07:50,667
+Changing demand, scarce stock,
+and random rewards are outside its scope.
+
+123
+00:07:51,100 --> 00:07:54,233
+A clean result applies only to the entered
+moves and search performed.
+
+124
+00:07:54,233 --> 00:07:58,300
+Further KNIME checks and game
+designer feedback are the next steps.
+
+125
+00:07:58,700 --> 00:08:02,167
+Here we followed the gift from a four coin gain to a correction.
+
+126
+00:08:02,533 --> 00:08:05,900
+Reducing its selling price to 20 coins removes that gain.
+
+127
+00:08:06,300 --> 00:08:11,100
+Keeping the original price but leaving limits unknown
+produces a request for information instead.
+
+128
+00:08:11,767 --> 00:08:16,133
+LoopGuard helps designers understand
+the recommendation before changing their game's rewards.
+
+129
+00:08:16,533 --> 00:08:17,133
+Thank you.
+
+130
+00:08:19,367 --> 00:08:20,000
+Then here...
