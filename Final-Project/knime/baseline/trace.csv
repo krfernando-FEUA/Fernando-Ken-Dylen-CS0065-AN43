@@ -1,0 +1,52 @@
+cycle_id,step,rule_id,label,condition,conclusion
+cycle-ribbon-shop--gift-workshop--gift-buyback,1,LG03,Closed currency path,3 transactions return to Friendship Coins.,A closed conversion route was found.
+cycle-ribbon-shop--gift-workshop--gift-buyback,2,LG04,Whole execution batches,Minimum starting batch: 20 Friendship Coins.,Every step executes a whole number of times; no leftover assets are credited.
+cycle-ribbon-shop--gift-workshop--gift-buyback,3,LG06,Positive return,20 → 24 Friendship Coins.,Net gain 4; return 20%.
+cycle-ribbon-shop--gift-workshop--gift-buyback,4,LG09,No execution caps,All caps are explicitly zero.,No execution cap is encoded.
+cycle-ribbon-shop--gift-workshop--gift-buyback,5,LG12,No cooldowns,All cooldowns are explicitly zero.,No time delay is encoded.
+cycle-ribbon-shop--gift-workshop--gift-buyback,6,LG21,Unintended return,"Ribbon boutique, Gift wrapping workshop, Gift buyback counter",At least one transaction identifies this return as unintended.
+cycle-ribbon-shop--gift-workshop--gift-buyback,7,LG24,Repeatable profit,Positive return + unintended label + explicitly absent limits.,The route earns currency and can repeat without an encoded cap or cooldown. This is a confirmed profit loop within the entered model.
+cycle-ribbon-shop--gift-workshop--gift-buyback,8,LG31,Buyback correction,Gift buyback counter is the terminal payout.,A lower payout removes this route’s positive return; preview rechecks all enumerated routes.
+cycle-ribbon-shop--gift-workshop--gift-buyback,9,LG30,Output fee correction,The terminal fee can absorb the excess return.,This route’s net return becomes nonpositive.
+cycle-ribbon-shop--gift-workshop--gift-buyback,10,LG32,Limit intervention,No positive global cap is encoded.,"A shared execution budget is an alternative throughput control, not a pricing fix."
+cycle-wish-kiosk--charm-workshop--charm-buyback,1,LG03,Closed currency path,3 transactions return to Friendship Coins.,A closed conversion route was found.
+cycle-wish-kiosk--charm-workshop--charm-buyback,2,LG04,Whole execution batches,Minimum starting batch: 8 Friendship Coins.,Every step executes a whole number of times; no leftover assets are credited.
+cycle-wish-kiosk--charm-workshop--charm-buyback,3,LG06,Positive return,8 → 12 Friendship Coins.,Net gain 4; return 50%.
+cycle-wish-kiosk--charm-workshop--charm-buyback,4,LG10,Finite execution cap,Daily wish kiosk,At least one finite daily execution cap applies.
+cycle-wish-kiosk--charm-workshop--charm-buyback,5,LG12,No cooldowns,All cooldowns are explicitly zero.,No time delay is encoded.
+cycle-wish-kiosk--charm-workshop--charm-buyback,6,LG15,Per-account allocation,Daily wish kiosk,"These caps are per account, not a shared economy-wide ceiling."
+cycle-wish-kiosk--charm-workshop--charm-buyback,7,LG17,Transferable allocation,Daily wish kiosk,"Outputs could be pooled across accounts; identity, ownership and transfer enforcement remain untested."
+cycle-wish-kiosk--charm-workshop--charm-buyback,8,LG21,Unintended return,"Daily wish kiosk, Starlight charm workshop, Charm collectors market",At least one transaction identifies this return as unintended.
+cycle-wish-kiosk--charm-workshop--charm-buyback,9,LG26,Account allocation risk,Positive return + transferable account-capped output + no global cap.,"The offer is limited per account, but its output is transferable. Investigate cross-account aggregation; an unlimited bypass is not established."
+cycle-wish-kiosk--charm-workshop--charm-buyback,10,LG31,Buyback correction,Charm collectors market is the terminal payout.,A lower payout removes this route’s positive return; preview rechecks all enumerated routes.
+cycle-wish-kiosk--charm-workshop--charm-buyback,11,LG30,Output fee correction,The terminal fee can absorb the excess return.,This route’s net return becomes nonpositive.
+cycle-wish-kiosk--charm-workshop--charm-buyback,12,LG32,Limit intervention,No positive global cap is encoded.,"A shared execution budget is an alternative throughput control, not a pricing fix."
+cycle-coffee-supply--latte-recipe--cafe-orders,1,LG03,Closed currency path,3 transactions return to Friendship Coins.,A closed conversion route was found.
+cycle-coffee-supply--latte-recipe--cafe-orders,2,LG04,Whole execution batches,Minimum starting batch: 10 Friendship Coins.,Every step executes a whole number of times; no leftover assets are credited.
+cycle-coffee-supply--latte-recipe--cafe-orders,3,LG06,Positive return,10 → 14 Friendship Coins.,Net gain 4; return 40%.
+cycle-coffee-supply--latte-recipe--cafe-orders,4,LG10,Finite execution cap,Daily café orders,At least one finite daily execution cap applies.
+cycle-coffee-supply--latte-recipe--cafe-orders,5,LG13,Cooldown bound,Daily café orders,A cooldown limits steady full-day throughput.
+cycle-coffee-supply--latte-recipe--cafe-orders,6,LG16,Shared allocation,Daily café orders,A shared global allocation is explicitly encoded.
+cycle-coffee-supply--latte-recipe--cafe-orders,7,LG20,Intended return,All route transactions are marked intended.,The route has an explicit intended-reward interpretation.
+cycle-coffee-supply--latte-recipe--cafe-orders,8,LG28,Bounded reward exception,Positive return + intended labels + known finite limit.,This is an explicitly intended reward with a known throughput limit. Preserve it unless its budget is too high.
+cycle-coffee-supply--bean-return,1,LG03,Closed currency path,2 transactions return to Friendship Coins.,A closed conversion route was found.
+cycle-coffee-supply--bean-return,2,LG04,Whole execution batches,Minimum starting batch: 5 Friendship Coins.,Every step executes a whole number of times; no leftover assets are credited.
+cycle-coffee-supply--bean-return,3,LG08,Loss-making path,5 → 4 Friendship Coins.,Net loss 1.
+cycle-coffee-supply--bean-return,4,LG09,No execution caps,All caps are explicitly zero.,No execution cap is encoded.
+cycle-coffee-supply--bean-return,5,LG12,No cooldowns,All cooldowns are explicitly zero.,No time delay is encoded.
+cycle-coffee-supply--bean-return,6,LG20,Intended return,All route transactions are marked intended.,The route has an explicit intended-reward interpretation.
+cycle-ribbon-shop--ribbon-return,1,LG03,Closed currency path,2 transactions return to Friendship Coins.,A closed conversion route was found.
+cycle-ribbon-shop--ribbon-return,2,LG04,Whole execution batches,Minimum starting batch: 10 Friendship Coins.,Every step executes a whole number of times; no leftover assets are credited.
+cycle-ribbon-shop--ribbon-return,3,LG08,Loss-making path,10 → 8 Friendship Coins.,Net loss 2.
+cycle-ribbon-shop--ribbon-return,4,LG09,No execution caps,All caps are explicitly zero.,No execution cap is encoded.
+cycle-ribbon-shop--ribbon-return,5,LG12,No cooldowns,All cooldowns are explicitly zero.,No time delay is encoded.
+cycle-ribbon-shop--ribbon-return,6,LG21,Unintended return,"Ribbon boutique, Ribbon returns",At least one transaction identifies this return as unintended.
+cycle-wish-kiosk--stamp-return,1,LG03,Closed currency path,2 transactions return to Friendship Coins.,A closed conversion route was found.
+cycle-wish-kiosk--stamp-return,2,LG04,Whole execution batches,Minimum starting batch: 8 Friendship Coins.,Every step executes a whole number of times; no leftover assets are credited.
+cycle-wish-kiosk--stamp-return,3,LG08,Loss-making path,8 → 6 Friendship Coins.,Net loss 2.
+cycle-wish-kiosk--stamp-return,4,LG10,Finite execution cap,Daily wish kiosk,At least one finite daily execution cap applies.
+cycle-wish-kiosk--stamp-return,5,LG12,No cooldowns,All cooldowns are explicitly zero.,No time delay is encoded.
+cycle-wish-kiosk--stamp-return,6,LG15,Per-account allocation,Daily wish kiosk,"These caps are per account, not a shared economy-wide ceiling."
+cycle-wish-kiosk--stamp-return,7,LG17,Transferable allocation,Daily wish kiosk,"Outputs could be pooled across accounts; identity, ownership and transfer enforcement remain untested."
+cycle-wish-kiosk--stamp-return,8,LG21,Unintended return,"Daily wish kiosk, Unused stamp refund",At least one transaction identifies this return as unintended.
+audit,1,LG01,Active market,15 transactions are enabled.,"Only enabled, positive-net-output transactions enter the graph."

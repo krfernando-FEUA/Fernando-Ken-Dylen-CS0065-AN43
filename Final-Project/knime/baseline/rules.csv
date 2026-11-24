@@ -1,0 +1,36 @@
+id,label,description,priority,category
+LG01,Active market,Only enabled transactions participate in the conversion graph.,100,facts
+LG02,Nonpositive output,A transaction whose fee consumes its output cannot advance a cycle.,100,facts
+LG03,Closed currency path,The route returns to its starting currency without revisiting another item.,95,graph
+LG04,Whole execution batches,Use the smallest exact batch that permits whole executions at every step.,95,arithmetic
+LG05,Fee accounting,Subtract the output-denominated fee on every transaction execution.,95,arithmetic
+LG06,Positive return,Final currency exceeds initial currency after modeled fees.,90,arithmetic
+LG07,Break-even path,The route returns exactly the currency it consumes.,90,arithmetic
+LG08,Loss-making path,The route returns less currency than it consumes.,90,arithmetic
+LG09,No execution caps,Every transaction explicitly has an unlimited execution cap.,85,limits
+LG10,Finite execution cap,At least one known positive daily cap bounds route throughput.,85,limits
+LG11,Unknown execution cap,An unknown cap prevents a claim that no execution cap exists.,85,uncertainty
+LG12,No cooldowns,Every transaction explicitly has no cooldown.,85,limits
+LG13,Cooldown bound,A positive cooldown bounds the modeled full-day throughput.,85,limits
+LG14,Unknown cooldown,An unknown cooldown prevents a claim that no time limit exists.,85,uncertainty
+LG15,Per-account allocation,A positive account cap applies separately to each account.,80,limits
+LG16,Shared allocation,A positive global cap applies across the modeled market.,80,limits
+LG17,Transferable allocation,A capped account offer with transferable output warrants checking cross-account aggregation.,80,risk
+LG18,Bound output,Nontransferable output weakens the modeled transfer-aggregation hypothesis.,80,exception
+LG19,Unknown transfer policy,Missing transferability on an account-capped offer requires clarification.,80,uncertainty
+LG20,Intended return,All transactions on the route are marked intended.,75,intent
+LG21,Unintended return,At least one route transaction is marked unintended.,75,intent
+LG22,Unknown design intent,A route with unrecorded intent requires design clarification.,75,uncertainty
+LG23,Conflicting design intent,Mixed intended and unintended labels need a route-level design decision.,75,uncertainty
+LG24,Repeatable profit,A profitable unintended route with explicitly absent caps and cooldowns is repeatable within this model.,70,decision
+LG25,Unbounded intended reward,An intended profitable route still needs review when no caps or cooldowns exist.,70,decision
+LG26,Account allocation risk,"A profitable account-limited route with transferable output has a potential aggregation risk, not proven unlimited bypass.",70,decision
+LG27,Bounded arbitrage,Known limits bound a profitable unintended route but do not erase its return.,70,decision
+LG28,Bounded reward exception,"A fully specified intended route with a finite limit is an intentional reward, subject to its entered bounds.",70,exception
+LG29,Request missing facts,"Unresolved limits, transfer policy, or intent keep a route under review.",70,decision
+LG30,Output fee correction,A sufficient terminal-output fee removes positive return for this exact route.,60,intervention
+LG31,Buyback correction,Reducing terminal output to its break-even threshold removes positive return without raising entry cost.,60,intervention
+LG32,Limit intervention,A positive global cap bounds payout throughput; it does not remove profitable pricing.,60,intervention
+LG33,No modeled profit,The bounded search found no positive-return currency route.,50,scope
+LG34,Large execution batch,A minimum batch above one billion currency units needs feasibility review.,70,uncertainty
+LG35,Search budget reached,The search ended at an explicit resource bound; omitted paths are unassessed.,100,scope

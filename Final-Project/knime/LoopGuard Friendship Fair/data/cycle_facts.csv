@@ -1,0 +1,7 @@
+cycle_id,title,profit,start_amount,unknown_limits,unknown_transfers,unknown_intent,mixed_intent,bounded,all_intended,transferable_account_cap,global_cap,model_fingerprint
+cycle-ribbon-shop--gift-workshop--gift-buyback,Friendship Gift return path,4.0,20.0,0,0,0,0,0,0,0,0,7700c7d314f4039a3e5406d4ce5f2eff1a86135dc6d5b986d5faa742adca4995
+cycle-wish-kiosk--charm-workshop--charm-buyback,Star Charm return path,4.0,8.0,0,0,0,0,1,0,1,0,7700c7d314f4039a3e5406d4ce5f2eff1a86135dc6d5b986d5faa742adca4995
+cycle-coffee-supply--latte-recipe--cafe-orders,Cloud Latte return path,4.0,10.0,0,0,0,0,1,1,0,1,7700c7d314f4039a3e5406d4ce5f2eff1a86135dc6d5b986d5faa742adca4995
+cycle-coffee-supply--bean-return,Cloud Coffee Bean conversion path,-1.0,5.0,0,0,0,0,0,1,0,0,7700c7d314f4039a3e5406d4ce5f2eff1a86135dc6d5b986d5faa742adca4995
+cycle-ribbon-shop--ribbon-return,Satin Ribbon conversion path,-2.0,10.0,0,0,0,0,0,0,0,0,7700c7d314f4039a3e5406d4ce5f2eff1a86135dc6d5b986d5faa742adca4995
+cycle-wish-kiosk--stamp-return,Wish Stamp conversion path,-2.0,8.0,0,0,0,0,1,0,1,0,7700c7d314f4039a3e5406d4ce5f2eff1a86135dc6d5b986d5faa742adca4995

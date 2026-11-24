@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-30",
+  "application": "KNIME Analytics Platform 5.12.0 LTS",
+  "mode": "Manual execution in the native KNIME GUI",
+  "workflow": "CSV Reader \u2192 Rule Engine \u2192 Rule Engine \u2192 CSV Writer",
+  "nodes": 4,
+  "classification_rules": 10,
+  "severity_rules": 5,
+  "native_baseline_execution_confirmed": true,
+  "decision_rows": 6,
+  "python_comparison_matches": 6,
+  "severity_counts": {
+    "healthy": 3,
+    "critical": 1,
+    "high": 1,
+    "intended": 1
+  },
+  "model_fingerprint": "7700c7d314f4039a3e5406d4ce5f2eff1a86135dc6d5b986d5faa742adca4995",
+  "decisions_sha256": "ca3c1d30e36e89178251a45a85624f6f5bf8ae2ff340a54d8444dbea081e1840",
+  "repair": "Native node bundle and feature metadata added to generated settings.xml. Original archive lacked required node-bundle-name metadata.",
+  "scope_limit": "This confirms only the four-node baseline. Automatic Batch Executor and optional Python Script integration remain unverified/unavailable.",
+  "screenshots": [
+    "knime-workflow-executed.png",
+    "knime-rule-engine.png"
+  ]
+}

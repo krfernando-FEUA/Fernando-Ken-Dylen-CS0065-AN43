@@ -1,0 +1,16 @@
+id,name,from,to,input,output,fee,enabled,character,kind,cooldown,cap,capScope,transferable,intent
+ribbon-shop,Ribbon boutique,coins,ribbon,10.0,1.0,0.0,True,Hello Kitty,buy,0.0,0,account,True,unintended
+gift-workshop,Gift wrapping workshop,ribbon,gift,2.0,1.0,0.0,True,My Melody,craft,0.0,0,account,True,unintended
+gift-buyback,Gift buyback counter,gift,coins,1.0,24.0,0.0,True,Hello Kitty,sell,0.0,0,account,True,unintended
+ribbon-return,Ribbon returns,ribbon,coins,1.0,8.0,0.0,True,Hello Kitty,sell,0.0,0,account,True,unintended
+gift-unpack,Unwrap a gift,gift,ribbon,1.0,1.0,0.0,True,My Melody,exchange,0.0,0,account,True,unintended
+wish-kiosk,Daily wish kiosk,coins,stamp,8.0,1.0,0.0,True,Kuromi,buy,0.0,2,account,True,unintended
+charm-workshop,Starlight charm workshop,stamp,charm,1.0,1.0,0.0,True,Kuromi,craft,0.0,0,account,True,unintended
+charm-buyback,Charm collectors market,charm,coins,1.0,12.0,0.0,True,Keroppi,sell,0.0,0,account,True,unintended
+stamp-return,Unused stamp refund,stamp,coins,1.0,6.0,0.0,True,Keroppi,sell,0.0,0,account,True,unintended
+charm-recycle,Charm recycling,charm,stamp,1.0,0.5,0.0,True,Kuromi,exchange,0.0,0,account,True,unintended
+coffee-supply,Cloud café ingredients,coins,bean,5.0,1.0,0.0,True,Cinnamoroll,buy,0.0,0,account,True,intended
+latte-recipe,Brew a cloud latte,bean,latte,2.0,1.0,0.0,True,Cinnamoroll,craft,0.0,0,account,True,intended
+cafe-orders,Daily café orders,latte,coins,1.0,14.0,0.0,True,Pompompurin,reward,60.0,3,global,False,intended
+bean-return,Surplus bean returns,bean,coins,1.0,4.0,0.0,True,Cinnamoroll,sell,0.0,0,account,True,intended
+latte-salvage,Latte salvage,latte,bean,1.0,1.0,0.0,True,Pompompurin,exchange,0.0,0,account,True,intended

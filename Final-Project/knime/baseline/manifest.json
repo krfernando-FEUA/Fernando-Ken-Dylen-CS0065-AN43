@@ -1,0 +1,8 @@
+{
+  "schema": "loopguard-knime-export-v1",
+  "fingerprint": "7700c7d314f4039a3e5406d4ce5f2eff1a86135dc6d5b986d5faa742adca4995",
+  "model": "Friendship Fair",
+  "scenario": "friendship-fair",
+  "cycles": 6,
+  "nativeExecutionVerified": false
+}

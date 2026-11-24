@@ -1,0 +1,7 @@
+cycle_id,classification,severity,knime_classification,knime_severity,matches
+cycle-ribbon-shop--gift-workshop--gift-buyback,repeatable-profit,critical,repeatable-profit,critical,True
+cycle-wish-kiosk--charm-workshop--charm-buyback,account-limit-risk,high,account-limit-risk,high,True
+cycle-coffee-supply--latte-recipe--cafe-orders,intended-reward,intended,intended-reward,intended,True
+cycle-coffee-supply--bean-return,losing-route,healthy,losing-route,healthy,True
+cycle-ribbon-shop--ribbon-return,losing-route,healthy,losing-route,healthy,True
+cycle-wish-kiosk--stamp-return,losing-route,healthy,losing-route,healthy,True
