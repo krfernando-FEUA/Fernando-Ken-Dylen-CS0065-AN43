@@ -1,0 +1,225 @@
+{
+  "project": "LoopGuard: Friendship Fair",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 58,
+      "sha256": "453b451b0c22d9b68c6a72f85b5aafe83b9114e93b8b7448894941591dcb8bbc"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 37,
+      "sha256": "9d30e53883d77f83e58aa5796d7e72a032488020c2dcb9e2b2643a7d9f13be37"
+    },
+    {
+      "path": "docs/ASSETS-ORIGINAL.md",
+      "bytes": 5642,
+      "sha256": "9cb38337f36fa86d9ff25b1ea815b2c1e1911a2eced55d21c75322aa9898557d"
+    },
+    {
+      "path": "docs/ASSETS.md",
+      "bytes": 1028,
+      "sha256": "a8e63840ecf1bb86c0c2d31d882690217e822eefb3c8c9344b17a0d78da35f43"
+    },
+    {
+      "path": "docs/DEMO.md",
+      "bytes": 2670,
+      "sha256": "000fd4ec0d2752ec027079cec3953910f43a4b6f271e93aee2150f43cac739c1"
+    },
+    {
+      "path": "docs/LoopGuard-English-Script.md",
+      "bytes": 17852,
+      "sha256": "90f6f6a2908753e814a35da455a34ab76835331b07883aec1fa5ea5f10c3cfa9"
+    },
+    {
+      "path": "docs/LoopGuard-Friendship-Fair.pptx",
+      "bytes": 19723595,
+      "sha256": "9abbe72d206280a755d9973958abbb22408b055dacc6a9709b7f3fc651dae3a5"
+    },
+    {
+      "path": "docs/PROJECT.md",
+      "bytes": 5139,
+      "sha256": "2c814fda929ada1d5fc95b03dac09e58d633262b4ebeaddd6219dca8cb5f6811"
+    },
+    {
+      "path": "docs/Python-Setup.md",
+      "bytes": 4720,
+      "sha256": "aaf01559ba693591e8a0c21ba4122d5f11ff1694c7624f13ad14eb97666e0bc0"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 4748,
+      "sha256": "aae7b04c433af669d9e3724b268f0f97e30de34899dad1bab75b0acd5a7382c3"
+    },
+    {
+      "path": "knime/baseline/cycle_facts.csv",
+      "bytes": 1122,
+      "sha256": "2a15218ffa4c84a0544d0fc54a6141b45f3db57b7cabbcee8294511c4be196e9"
+    },
+    {
+      "path": "knime/baseline/cycles.csv",
+      "bytes": 1850,
+      "sha256": "3ac166618ef8b31eb7548a790eda21ba0ed841d7a633d6dc02e063c7af439175"
+    },
+    {
+      "path": "knime/baseline/findings.csv",
+      "bytes": 1102,
+      "sha256": "35d7371a82d121806173378c060a484e6216ba67904d97076680e7e6b6c3b952"
+    },
+    {
+      "path": "knime/baseline/items.csv",
+      "bytes": 255,
+      "sha256": "080b2c9b93395888a475f8603db58c591781f4da26caabcd20b2bee148975b50"
+    },
+    {
+      "path": "knime/baseline/manifest.json",
+      "bytes": 249,
+      "sha256": "2a42a16f61f0b383a7c3b894fbc71a11c92f5b68a055f30ab8f5e0f21c97936f"
+    },
+    {
+      "path": "knime/baseline/model.json",
+      "bytes": 6839,
+      "sha256": "8417c03670d8843a75aad9992d89268438dad38142b1891cfcbcac617798f01d"
+    },
+    {
+      "path": "knime/baseline/rules.csv",
+      "bytes": 3893,
+      "sha256": "17cf780711200a73ae8ec47f2824e1179d4d51c465a8f29f85f19dfd24cf3cf1"
+    },
+    {
+      "path": "knime/baseline/trace.csv",
+      "bytes": 8278,
+      "sha256": "4ab6f7a5419d49339b16c0c83b602f5d7e14c3e47e8075eb77a5c1db139eacdc"
+    },
+    {
+      "path": "knime/baseline/transactions.csv",
+      "bytes": 1718,
+      "sha256": "901060373fee7fc8f8efac017925f421180e7df30945b0ce05231cd47a32cd9f"
+    },
+    {
+      "path": "knime/build_workflow.py",
+      "bytes": 9457,
+      "sha256": "2e35b77a0243119bffa3c46306da38dc51da5310d8ad7f7593a0c817c4fb3b08"
+    },
+    {
+      "path": "knime/evidence/knime-evidence-manifest.json",
+      "bytes": 1087,
+      "sha256": "f4718b5e6deb2281271aa7313547626cc0a6574691fe397386e9346e6c27bba9"
+    },
+    {
+      "path": "knime/evidence/knime-native-comparison.csv",
+      "bytes": 631,
+      "sha256": "57604b424343002c454cb72788c43c52b66a40214b1e96e27643e87b4fc8c903"
+    },
+    {
+      "path": "knime/evidence/knime-native-decisions.csv",
+      "bytes": 1356,
+      "sha256": "ca3c1d30e36e89178251a45a85624f6f5bf8ae2ff340a54d8444dbea081e1840"
+    },
+    {
+      "path": "knime/evidence/knime-rule-engine.png",
+      "bytes": 132670,
+      "sha256": "0e3424cb2deacc6aa65ed47562b9e4a8147cc466088413d8ffd35a2e7775177b"
+    },
+    {
+      "path": "knime/evidence/knime-workflow-executed.png",
+      "bytes": 98010,
+      "sha256": "d264f52614c2574f68dad96fea5f418f25eafd107d17029276b3a60c62529c57"
+    },
+    {
+      "path": "knime/export_tables.py",
+      "bytes": 2212,
+      "sha256": "514ee9cd1e3967c316d75edb5e94ceca77c24367ace00bb7153a77fc56c02a1e"
+    },
+    {
+      "path": "knime/LoopGuard Friendship Fair/Assign severity (#3)/settings.xml",
+      "bytes": 3671,
+      "sha256": "22a1f340a38560140b3f28e35faa41d8a3bec995ff52abf648a3ca2ea29a7b02"
+    },
+    {
+      "path": "knime/LoopGuard Friendship Fair/Classify route (#2)/settings.xml",
+      "bytes": 4071,
+      "sha256": "4b214fe6e83800319fb452e99919f12f837bbc680e5d7e4bb4b1f95930b3039d"
+    },
+    {
+      "path": "knime/LoopGuard Friendship Fair/CSV Reader (#1)/settings.xml",
+      "bytes": 9182,
+      "sha256": "bea1ce07154071d3bde86a533ad894b7517d077ae3ae0969f58f149ddb731353"
+    },
+    {
+      "path": "knime/LoopGuard Friendship Fair/CSV Writer (#4)/settings.xml",
+      "bytes": 4211,
+      "sha256": "30b4a3115a23ab44a466349662ae2ce2a2d54623f16847b3418ca98c98e9647a"
+    },
+    {
+      "path": "knime/LoopGuard Friendship Fair/data/cycle_facts.csv",
+      "bytes": 1122,
+      "sha256": "2a15218ffa4c84a0544d0fc54a6141b45f3db57b7cabbcee8294511c4be196e9"
+    },
+    {
+      "path": "knime/LoopGuard Friendship Fair/data/manifest.json",
+      "bytes": 249,
+      "sha256": "2a42a16f61f0b383a7c3b894fbc71a11c92f5b68a055f30ab8f5e0f21c97936f"
+    },
+    {
+      "path": "knime/LoopGuard Friendship Fair/data/model.json",
+      "bytes": 6839,
+      "sha256": "8417c03670d8843a75aad9992d89268438dad38142b1891cfcbcac617798f01d"
+    },
+    {
+      "path": "knime/LoopGuard Friendship Fair/workflow.knime",
+      "bytes": 5226,
+      "sha256": "57beb3694c684deb386723deb5e8597d04dd427088d5e4eab39a98ec3833dbb7"
+    },
+    {
+      "path": "knime/LoopGuard_Friendship_Fair.knwf",
+      "bytes": 8233,
+      "sha256": "939a372c4d220363b65e92885ef29f39074bccfaef6d338bd41d45a92aa38089"
+    },
+    {
+      "path": "knime/python_script.py",
+      "bytes": 1052,
+      "sha256": "a82e7aad6e41c2d79bf62a21c797b0a00ca9e9a25558c37760bbf0b15535b1db"
+    },
+    {
+      "path": "knime/README.md",
+      "bytes": 8547,
+      "sha256": "e002f2e831094c98bb14ae86934dcf32953d277651db36a5cadaacccbcbe49ff"
+    },
+    {
+      "path": "knime/run_workflow.py",
+      "bytes": 9165,
+      "sha256": "9b9d2aa2963bc5e1468fbc995e97bcc092b20a7ee9a7d3e0d65d41f93cc9fab3"
+    },
+    {
+      "path": "knime/templates/csv-reader-model.xml",
+      "bytes": 7084,
+      "sha256": "b5485e0e6d052829c91d31c417336e9192905409b230c472a8fd799e9c9e961b"
+    },
+    {
+      "path": "python/LoopGuard-Python-Source.zip",
+      "bytes": 539222,
+      "sha256": "fae7eceb41ff6736fa9a37a94832dcac851127aa0fbbe7c533addc01e8112703"
+    },
+    {
+      "path": "python/README.md",
+      "bytes": 598,
+      "sha256": "b9b0f0fd853fe30ad3691dd76f29dc473eb5610dbd388b67bc67ba79050b9962"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3055,
+      "sha256": "a0d31638f2c847f620cf9a3a8712b0633aece98df34e85d0ea0189d78d7ad44b"
+    },
+    {
+      "path": "video/LoopGuard-OneCut-1080p-Subtitled.mp4",
+      "bytes": 418433210,
+      "sha256": "64909ef1ea6dc0903fcb2e82a320ef8d5c64d36b6ca71f004cbde60d1a61b48d"
+    },
+    {
+      "path": "video/LoopGuard-Subtitles-English.srt",
+      "bytes": 12108,
+      "sha256": "8ba4b011e71de58071f19d0c043e400a687dc034cf2c80a4930b2d527bde7573"
+    }
+  ]
+}
